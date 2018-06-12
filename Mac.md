@@ -38,7 +38,6 @@ scp -P 22 /home/james/test.tar.gz admin@192.168.1.96:/home/admin/test.tar.gz
 # 将本地目录上传到服务器上
 scp -P 22 -r /home/james/test/ admin@192.168.1.96:/home/admin/test
 
-
 # 批量重命名文件
 # 本例演示了把当前目录下的所有MP3文件的名称去除多余的字符，只保留序号。
 rename 's/.+(\d+).mp3/$1.mp3/' *.mp3
@@ -54,8 +53,7 @@ id
 finger
 uname -a
 ulimit -a
-···
-
+```
 
 ## Finder显示默认隐藏的文件
 
