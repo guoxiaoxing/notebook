@@ -1,3 +1,16 @@
+## branch
+
+```
+// 创建并切换到新分支
+git checkout -b branchName
+```
+## tag
+
+```
+// 创建新的Tag
+git tag tagName
+```
+
 ## 暂存修改
 
 ```
