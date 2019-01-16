@@ -43,3 +43,29 @@ git reset --hard Obfafd
 // 强制push到远程分支
 git push -f
 ```
+
+## SubModule
+
+基本操作命令
+
+```
+git submodule --h 查看帮助
+git submodule add添加子模块
+```
+生成.gitmodules文件
+
+```
+path = rack
+url = git://github.com/chneukirchen/rack.git
+```
+复制代码
+更新方式与普通项目一样
+
+克隆一个带子模块的项目
+
+```
+git submodule init 初始化子模块
+git submodule update 因为你所拥有的指向子模块的指针和子模块目录的真实状态并不匹配
+```
+
+
