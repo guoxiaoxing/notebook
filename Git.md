@@ -1,10 +1,10 @@
-## branch
+## Branch
 
 ```
 // 创建并切换到新分支
 git checkout -b branchName
 ```
-## tag
+## Tag
 
 ```
 // 创建新的Tag
